@@ -84,7 +84,7 @@ export default {
     },
     twitterShare(){
         //シェアする画面を設定
-        var shareURL = 'https://twitter.com/intent/tweet?text=' + "ポケモン自己診断っぽいものを作ってみました。" + "診断結果はこちら"+'&url=' + this.pokemonImage ;
+        var shareURL = 'https://twitter.com/intent/tweet?text=' + "ポケモン自己診断っぽいものを作ってみました。" + "あなたをポケモンに例えると。。。"+'&url=' + this.pokemonImage ;
         //シェア用の画面へ移行
         location.href = shareURL
         }
